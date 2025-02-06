@@ -1,0 +1,34 @@
+body {
+    width: 600px;
+    background-color: #9ecbe6;
+    color: white;
+    text-wrap-style: wrap;
+    border: #78c84f 5px solid;
+    padding: 50px;
+    margin: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-style: italic;
+}
+
+header, footer {
+    text-align: center;
+    color: #686b6a;
+    font-weight: bold;
+    margin: 10px;
+}
+
+header > span {
+    color: white;
+}
+
+a {
+    color: #78c84f;
+}
+
+img {
+    width: 200px;
+    float: right;
+}
