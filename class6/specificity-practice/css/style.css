@@ -9,7 +9,7 @@ section > h2 {
 }
 
 /* Please select "Hello, world!" with the highest level of specificity possible*/
-body > header + section > h2 {
+html > body > header.top + section#rugratsWildThornberrysBestCrossOverAllTime > h2 {
     color: yellow;
 }
 
