@@ -13,30 +13,16 @@
      height: 0;
 }
 
+/* Basic Box Section Styling */
 .clear {
 	clear: both;
+    height: 200px;
+    border: 5px solid black;
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
-body {
-
+section {
+    height: 500px;
+    width: 33.333%;
+    border: 5px solid black;
+    float: left;
 }
-
-
-/******************************************
-/* LAYOUT
-/*******************************************/
-header {
-
-}
-
-footer {
-
-}
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
