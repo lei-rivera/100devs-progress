@@ -17,18 +17,56 @@
 	clear: both;
 }
 
-/******************************************
-/* BASE STYLES
-/*******************************************/
-
+/* General Styles */
 body {
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+/******************************************
+/* NAV
+/*******************************************/
+
+nav {
+    height: 45px;
+    padding: auto;
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+a, a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav {
+    border-right: solid 2px white;
+    width: 7.5%;
+    float: left;
+    text-align: center;
+    padding: auto;
+}
+
+li > .nav-10 {
+    width: 10%;
+}
 
 /******************************************
-/* LAYOUT
+/* MAIN
 /*******************************************/
+h1 {
+    float: left;
+}
+
+h1 + p {
+    float: right;
+    margin-top: 30px;
+    color: gray;
+    font-weight: bold;
+}
+
 header {
 
 }
