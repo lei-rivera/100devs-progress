@@ -13,10 +13,13 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-        <nav>
+        <!-- Header and Nav -->
+        <header>
+            <nav>
+                <img src="images/logo.png" alt="BBC logo">
+                <a href="#">Sign In</a>
+
             <ul>
-                <li><img src="images/logo.png" alt="BBC logo"></li>
-                <li><a href="#">Sign In</a></li>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">News</a></li>
                 <li><a href="#">Sport</a></li>
@@ -26,70 +29,48 @@
                 <li><a href="#">Future</a></li>
                 <li><a href="#">Culture</a></li>
                 <li><a href="#">More</a></li>
-                <li><input type="text" placeholder="search"></li>
             </ul>
-        </nav>
 
-        <!-- <nav class="clear">
-            <ul>
-                <li><img src="images/logo.png" alt="BBC logo" class="nav nav-10"></li>
-                <li><a href="#" class="nav nav-10">Sign In</a></li>
-                <li><a href="#" class="nav">Home</a></li>
-                <li><a href="#" class="nav">News</a></li>
-                <li><a href="#" class="nav">Sport</a></li>
-                <li><a href="#" class="nav">Reel</a></li>
-                <li><a href="#" class="nav">Worklife</a></li>
-                <li><a href="#" class="nav">Travel</a></li>
-                <li><a href="#" class="nav">Future</a></li>
-                <li><a href="#" class="nav">Culture</a></li>
-                <li><a href="#" class="nav nav-10">More</a></li>
-                <li><input type="text" name="search" placeholder="search" class="nav nav-10"></li>
-            </ul>
+            <form action="#"><input type="text" placeholder="search"></form>
         </nav>
-
-        <main class="clear">
+        </header>
+        
+        <!-- Main Section and Articles -->
+        <main>
             <h1>Welcome to BBC.com</h1>
-
-            <p>Thursday, 13 August</p>
-
-            <div class="main-content main-article clear">
-                <img src="images/peace.png" alt="Israel and UAE leaders" class="clear" id="main-article">
-            </div>
-                
-
-            <div class="main-content main-more">
-                <img src="images/canada.png" alt="American and Canadian flags">
-                <img src="images/vaccinate.png" alt="doctor holding covid-19 vaccine bottle">
-                <img src="images/worklife.png" alt="Online worker with headphones">
-                <img src="images/folk.png" alt="black and white photo of folk singer">
-            </div>
-            
+            <section>
+                <img src="images/peace.png" alt="Israel and UAE leaders">
+            </section>
+            <section>
+                <img src="images/canada.png" alt="">
+                <img src="images/vaccinate.png" alt="">
+                <img src="images/worklife.png" alt="">
+                <img src="images/folk.png" alt="">
+            </section>
         </main>
 
+        <!-- Bottom Section and Articles -->
         <section class="clear">
             <h2>News</h2>
-
-            <div>
-                <img src="images/biden-harris.png" alt="kamala harris and joe biden">
-                <h3></h3>
-                <p></p>
-                <p></p>
-            </div>
-
-            <div>
-                <img src="images/women.png" alt="women holding up peace signs in protest">
-                <h3></h3>
-                <p></p>
-                <p></p>
-            </div>
-
-            <div>
-                <img src="images/trump.png" alt="trump's hair blowing in wind">
-                <h3></h3>
-                <p></p>
-                <p></p>
-            </div>
-        </section> -->
+            <section>
+                <img src="images/biden-harris.png" alt="Kamala Harris and Joe Biden">
+                <h3>Biden and harris say Trump has left US 'in tatters'</h3>
+                <p>Joe Biden and runnign mate Kamala Harris call President Donald Trump a "whining" incompetent leader.</p>
+                <span>US ELECTION 2020</span>
+            </section>
+            <section>
+                <img src="images/women.png" alt="Women holding up peace signs in protest">
+                <h3>Women form 'solidarity chains' in Belarus protests</h3>
+                <p>Women take to the streets of Minsk dressed in white as they demand an end to police brutality.</p>
+                <span>EUROPE</span>
+            </section>
+            <section>
+                <img src="images/trump.png" alt="Trump's hair flowing in wind">
+                <h3>Trump says low-pressure shower heads won't wash</h3>
+                <p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
+                <span>US & CANADA</span>
+            </section>
+        </section>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
