@@ -22,21 +22,203 @@
 /*******************************************/
 
 body {
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
+span {
+    display: block;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+section > a {
+    border: solid 1px black;
+    padding: 10px 30px;
+}
 
 /******************************************
-/* LAYOUT
+/* HEADER
 /*******************************************/
+
 header {
-
+    background-color: #66768a;
+    height: 55px;
+    font-size: 15px;
 }
 
-footer {
+header > a {
+    float: left;
+    margin: 10px;
+    text-decoration: none;
+    color: #f1f1f1;
+}
 
+header > img {
+    float: left;
+    position: relative;
+    left: 31%;
+    width: 40px;
+    height: auto;
+}
+
+header > img + a {
+    float: right;
+    background-color: white;
+    color: #66768a;
+    padding: 7px;
+    border-radius: 5px;
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* MAIN
 /*******************************************/
+
+main {
+    height: 310px;
+    background-color: #66768a;
+    padding: 10px 70px;
+}
+
+main * {
+    color: #f1f1f1;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+main > p {
+    margin-bottom: 40px;
+}
+
+main > span {
+    margin-top: 45px;
+    font-size: 12px;
+    color: #404251;
+}
+
+/******************************************
+/* WHY SECTION
+/*******************************************/
+
+main + section {
+    padding: 70px 250px;
+}
+
+/******************************************
+/* VISIT SECTION
+/*******************************************/
+
+section.visit {
+    background-color: #dbdfe2;
+    height: 550px;
+    padding: 0 70px;
+}
+
+section.visit > section {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+}
+
+section.visit div {
+    height: 150px;
+    width: 300px;
+    background-color: #66768a;
+    margin: auto;
+}
+
+section.visit p {
+    margin-bottom: 40px;
+}
+
+/******************************************
+/* VOLUNTEER SECTION
+/*******************************************/
+
+section.visit + section {
+    height: 480px;
+    padding: 100px 200px;
+}
+
+section.visit + section > p {
+    margin-bottom: 50px;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+footer {
+    height: 300px;
+    background-color: #161f2a;
+    color: white;
+    padding: 20px 50px;
+    text-align: left;
+    font-weight: bold;
+}
+
+footer > section {
+    height: 200px;
+}
+
+footer > section > section {
+    width: 20%;
+    float: left;
+}
+
+/* Left Section */
+footer a {
+    color: white;
+    border: none;
+    padding: 0 30px 0 0;
+}
+
+footer img {
+    width: 100%;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #66768a;
+    margin: 20px 0 7px;
+}
+
+/* Right Section */
+footer > section  > section + section {
+    float: right;
+}
+
+footer > section > section + section > h4 {
+    color: white;
+}
+
+footer > section > section + section > p {
+    font-weight: normal;
+}
+
+/* Below Section */
+hr {
+    margin: 20px 0;
+}
+
+hr + section {
+    height: auto;
+}
+
+hr + section > span {
+    display: inline;
+}
+
+span + img {
+    width: 30px;
+    float: right;
+    margin: 0;
+}
