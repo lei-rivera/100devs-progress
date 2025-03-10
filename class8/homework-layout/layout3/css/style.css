@@ -24,11 +24,12 @@
 body {
     background-color: #f6f8fb;
     font-family: Arial, Helvetica, sans-serif;
+    color: #374557;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #374557;
 }
 
 button {
@@ -55,6 +56,32 @@ input {
     height: 40px;
     width: 70%;
     margin: 0;
+}
+
+section.clear > section > img {
+    width: 50px;
+    height: 45px;
+}
+
+section.clear > section > a {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+section.clear + section {
+    background-color: white;
+}
+
+section.clear + section > h2 {
+    font-size: 40px;
+    margin-top: 0;
+}
+
+section.clear + section > p {
+    color: #8392a4;
 }
 
 /******************************************
@@ -111,6 +138,38 @@ input {
     main > input {
         height: 50px;
     }
+
+    /* Four Features */
+    section.clear > hr {
+        display: none;
+    }
+
+    section.clear {
+        padding: 40px;
+        height: 300px;
+    }
+    
+    section > section {
+        width: 25%;
+        float: left;
+        padding: 10px;
+    }
+
+    /* Bottom Section */
+    section.clear + section {
+        height: 300px;
+        padding: 50px;
+    }
+
+    section.clear + section > * {
+        margin-right: 500px;
+    }
+    
+    section > div {
+        width: 100%;
+        height: 100px;
+        background-color: #e3e8ef;
+    }
 }
 
 /******************************************
@@ -164,6 +223,33 @@ input {
         float: right;
         width: 97%;
     }
+
+    /* Four Features Section */
+    section.clear {
+        padding: 40px;
+    }
+    
+    section.clear > section {
+        margin-bottom: 20px;
+    }
+
+    section.clear > hr {
+        display: block;
+        color: #e3e8ef;
+    }
+
+    /* Bottom Section */
+    section.clear + section {
+        height: 300px;
+        padding: 50px;
+    }
+    
+    section > div {
+        width: 100%;
+        height: 100px;
+        background-color: #e3e8ef;
+    }
+
 }
 
 
