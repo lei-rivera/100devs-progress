@@ -37,10 +37,24 @@ button {
     padding: 10px;
     color: white;
     width: 100px;
+    height: 40px;
 }
 
 span {
     display: block;
+}
+
+main > span {
+    color: #8392a4;
+}
+
+input {
+    background-color: #e3e8ef;
+    color: #848c99;
+    border: none;
+    height: 40px;
+    width: 70%;
+    margin: 0;
 }
 
 /******************************************
@@ -131,6 +145,24 @@ span {
     /* hide desktop nav */
     .nav {
         display: none;
+    }
+
+    /* Main */
+    main {
+        padding: 20px;
+    }
+
+    input, main button {
+        width: 100%;
+    }
+
+    main button {
+        margin-top: 10px;
+    }
+
+    main + img {
+        float: right;
+        width: 97%;
     }
 }
 
