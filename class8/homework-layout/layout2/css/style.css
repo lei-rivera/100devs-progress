@@ -211,20 +211,21 @@ section + img {
 }
 
 /******************************************
-/* SECOND SECTION
+/* SECTION TWO
 /*******************************************/
-#second-section {
+#section-two {
     padding: 100px;
+    height: 900px;
 }
 
-#second-section > section {
+#section-two > section {
     width: 50%;
     height: 700px;
     float: left;
 }
 
 /* text content */
-#second-section > .text-content {
+#section-two > .text-content {
     padding-right: 150px;
 }
 
@@ -262,8 +263,42 @@ section + img {
 
 
 /******************************************
-/* MAIN
+/* SECTION THREE
 /*******************************************/
+
+#section-three {
+    padding: 100px;
+    height: 700px;
+}
+
+#section-three > section {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+#section-three .text-content {
+    padding-left: 150px;
+}
+
+/* image content */
+#section-three section > div {
+    width: 100%;
+    height: 500px;
+    background-color: #dee0e8;
+    padding-top: 175px;
+    border-radius: 10px;
+}
+
+#section-three section > div > div {
+    width: 40%;
+    height: 150px;
+    background-color: #222634;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
 /******************************************
 /* MAIN
 /*******************************************/
