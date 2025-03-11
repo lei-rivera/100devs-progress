@@ -23,7 +23,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: rgb(246,247,249);
-    background: linear-gradient(0deg, rgba(246,247,249,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(246,247,249,1) 90%, rgba(255,255,255,1) 100%);
 }
 
 a {
@@ -174,6 +174,7 @@ section.main {
     background-color: white;
     color: #222634;
     border-radius: 10px;
+    text-align: center;
 }
 
 /* Div Illustration */
@@ -282,7 +283,7 @@ section + img {
 }
 
 /* image content */
-#section-three section > div {
+.illustration {
     width: 100%;
     height: 500px;
     background-color: #dee0e8;
@@ -290,7 +291,7 @@ section + img {
     border-radius: 10px;
 }
 
-#section-three section > div > div {
+.illustration > div {
     width: 40%;
     height: 150px;
     background-color: #222634;
@@ -299,6 +300,88 @@ section + img {
     text-align: center;
     padding-top: 50px;
 }
+
+/******************************************
+/* SECTION FOUR
+/*******************************************/
+
+#section-four {
+    text-align: center;
+    padding: 100px;
+    height: 1000px;
+}
+
+#section-four > section {
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+#section-four > .text-content {
+    text-align: left;
+    padding-left: 150px;
+}
+
+#section-four > p {
+    padding: 20px 200px 30px 200px;
+}
+
+#section-four p {
+    margin-bottom: 30px;
+}
+
+/* box */
+.box {
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.box > * {
+    float: left;
+}
+
+.box div {
+    width: 30px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.box > section {
+    width: 85%;
+    margin-left: 20px;
+}
+
+.box  h4 {
+    margin: 0 0 20px 0;
+}
+
+/* arrow buttons */
+.arrow {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 3px solid black;
+    padding: 7px;
+    text-align: center;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.arrow a {
+    color: black;
+    font-weight: bold;
+}
+
+/******************************************
+/* MAIN
+/*******************************************/
+/******************************************
+/* MAIN
+/*******************************************/
+/******************************************
+/* MAIN
+/*******************************************/
 /******************************************
 /* MAIN
 /*******************************************/
