@@ -415,8 +415,28 @@ section#section-five > section.all {
 }
 
 /******************************************
-/* MAIN
+/* SECTION SIX
 /*******************************************/
+
+#section-six {
+    padding: 100px;
+    height: 700px;
+    background-color: #f8f8fa;
+}
+
+#section-six > section {
+    width: 50%;
+    float: left;
+}
+
+#section-six > section + section {
+    padding-left: 150px;
+}
+
+#section-six p + p {
+    margin-bottom: 100px;
+}
+
 /******************************************
 /* MAIN
 /*******************************************/
