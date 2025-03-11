@@ -33,12 +33,16 @@ ul {
     list-style: none;
 }
 
+span {
+    display: block;
+}
+
 /* Background */
 body > div {
     background-color: #222634;
     height: 1000px;
     width: 100%;
-    background: linear-gradient(170deg, #202432 0 80%, white 50% 100%)
+    background: linear-gradient(175deg, #202432 0 50%, white 50% 100%)
 }
 
 /******************************************
@@ -51,7 +55,7 @@ nav {
 
 /* Nav Layout */
 nav > section {
-    width: 40%;
+    width: 30%;
 }
 
 nav > * {
@@ -60,7 +64,7 @@ nav > * {
 }
 
 nav > ul {
-    width: 60%;
+    width: 70%;
     margin: 0;
 }
 
@@ -99,4 +103,65 @@ a.sign-up {
 /*******************************************/
 main {
     color: white;
+    padding: 50px 100px 0px 100px;
+    height: 500px;
+}
+
+main > section {
+    width: 50%;
+    float: left;
+    height: 400px;
+}
+
+main h1 {
+    font-weight: normal;
+}
+
+section.main {
+    padding-right: 150px;
+}
+
+.main > * {
+    margin: 40px 0;
+}
+
+.main > a {
+    width: 45%;
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+.main > p + a {
+    margin-right: 20px;
+    background-color: white;
+    color: #222634;
+    border-radius: 10px;
+}
+
+/* Div Illustration */
+#white {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding-top: 15px;
+    box-shadow: 0px 10px 15px 0px #2226342d
+}
+
+#white > div {
+    background-color: #dee0e8;
+    width: 85%;
+    height: 370px;
+    margin: auto;
+    padding-top: 110px;
+}
+
+#white > div > div {
+    background-color: #222634;
+    width: 40%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
 }
