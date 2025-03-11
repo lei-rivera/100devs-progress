@@ -374,8 +374,46 @@ section + img {
 }
 
 /******************************************
-/* MAIN
+/* SECTION FIVE
 /*******************************************/
+
+#section-five {
+    height: 850px;
+    background: linear-gradient(175deg, #f6f7f9 0 17%, #202432 17% 100%);
+}
+
+#section-five > section {
+    width: 400px;
+    padding-left: 100px;
+    margin-bottom: 100px;
+}
+
+#section-five > section.features {
+    width: 25%;
+    height: 200px;
+    float: left;
+    background-color: white;
+    padding: 35px;
+    margin: 50px;
+    border-radius: 10px;
+
+    & p {
+        font-size: 15px;
+    }
+}
+
+section#section-five > section.all {
+    text-align: center;
+    padding-top: 65px;
+}
+
+.feature-box {
+    width: 30px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
 /******************************************
 /* MAIN
 /*******************************************/
