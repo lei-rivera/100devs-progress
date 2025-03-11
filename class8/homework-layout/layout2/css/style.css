@@ -22,6 +22,8 @@
 /*******************************************/
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(246,247,249);
+background: linear-gradient(0deg, rgba(246,247,249,1) 50%, rgba(255,255,255,1) 100%);
 }
 
 a {
@@ -40,9 +42,9 @@ span {
 /* Background */
 body > div {
     background-color: #222634;
-    height: 1000px;
+    height: 720px;
     width: 100%;
-    background: linear-gradient(175deg, #202432 0 50%, white 50% 100%)
+    background: linear-gradient(175deg, #202432 0 70%, #f6f7f9 30% 100%)
 }
 
 /******************************************
@@ -164,4 +166,11 @@ section.main {
     margin: auto;
     text-align: center;
     padding-top: 50px;
+}
+
+/* Platforms Icons */
+section + img {
+    float: right;
+    width: 1000px;
+    margin-top: 100px;
 }
