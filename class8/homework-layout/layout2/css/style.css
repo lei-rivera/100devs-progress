@@ -23,7 +23,7 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: rgb(246,247,249);
-background: linear-gradient(0deg, rgba(246,247,249,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(246,247,249,1) 50%, rgba(255,255,255,1) 100%);
 }
 
 a {
@@ -37,6 +37,40 @@ ul {
 
 span {
     display: block;
+}
+
+p {
+    font-size: 20px;
+    color: #8d92a3;
+}
+
+div > span {
+    margin-top: 10px;
+}
+
+/* image icons */
+.image-icon {
+    width: 35px;
+    height: 30px;
+}
+
+/* link styling to look like buttons */
+.button {
+    background-color: #222634;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 45px;
+}
+
+/* text content */
+.text-content {
+    & span {
+        color: #222634;
+    }
+    & p + p {
+        margin-bottom: 150px;
+    }
 }
 
 /* Background */
@@ -124,6 +158,7 @@ section.main {
 }
 
 .main > * {
+    color: white;
     margin: 40px 0;
 }
 
@@ -134,7 +169,7 @@ section.main {
     color: white;
 }
 
-.main > p + a {
+.main > .button {
     margin-right: 20px;
     background-color: white;
     color: #222634;
@@ -148,7 +183,7 @@ section.main {
     height: 100%;
     border-radius: 20px;
     padding-top: 15px;
-    box-shadow: 0px 10px 15px 0px #2226342d
+    box-shadow: 0px 10px 15px 0px #2226342d;
 }
 
 #white > div {
@@ -174,3 +209,64 @@ section + img {
     width: 1000px;
     margin-top: 100px;
 }
+
+/******************************************
+/* SECOND SECTION
+/*******************************************/
+#second-section {
+    padding: 100px;
+}
+
+#second-section > section {
+    width: 50%;
+    height: 700px;
+    float: left;
+}
+
+/* text content */
+#second-section > .text-content {
+    padding-right: 150px;
+}
+
+/* four image sections */
+#four-image > section {
+    width: 300px;
+    float: left;
+    height: 320px;
+    margin: 0 0 15px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px #aeafb32d;
+}
+
+#four-image > section * {
+    text-align: center;
+}
+
+#four-image div {
+    width: 100%;
+    height: 200px;
+    background-color: #dee0e8;
+    border-radius: 10px;
+    padding-top: 75px;
+}
+
+#four-image > section > p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+#dark > div {
+    background-color: #222634;
+    color: white;
+}
+
+
+/******************************************
+/* MAIN
+/*******************************************/
+/******************************************
+/* MAIN
+/*******************************************/
+/******************************************
+/* MAIN
+/*******************************************/
