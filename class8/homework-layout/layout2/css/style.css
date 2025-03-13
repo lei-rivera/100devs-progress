@@ -456,7 +456,7 @@ section#section-five > section.all {
 }
 
 section.arrows {
-    width: 94%;
+    width: 93%;
     padding: 0 100px;
 }
 
@@ -467,7 +467,7 @@ section.arrows {
 
 #section-seven .clear {
     height: 110px;
-    padding: 0 600px;
+    padding: 0 40%;
 }
 
 #section-seven .clear > div {
@@ -481,10 +481,14 @@ section.arrows {
 #section-seven .clear > * {
     float: left;
 }
-
 /******************************************
-/* MAIN
+/* SECTION EIGHT
 /*******************************************/
+
+#section-eight {
+    background-color: #222634;
+}
+
 /******************************************
 /* MAIN
 /*******************************************/
