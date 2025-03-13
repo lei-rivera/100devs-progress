@@ -487,8 +487,77 @@ section.arrows {
 
 #section-eight {
     background-color: #222634;
+    color: white;
+    padding: 80px 200px;
+    height: 200px;
+}
+
+#section-eight > section {
+    width: 50%;
+    float: left;
+}
+
+#section-eight span {
+    color: #909199;
+}
+
+#section-eight a {
+    background-color: #393c4a;
+    display: inline-block;
+    width: 45%;
+    margin: 0 10px;
+    text-align: center;
+}
+
+#section-eight a + a {
+    color: #222634;
+    background-color: white;
 }
 
 /******************************************
-/* MAIN
+/* FOOTER
 /*******************************************/
+
+/* General Layout */
+footer {
+    background-color: white;
+    padding: 50px 100px;
+    height: 400px;
+}
+
+footer > section {
+    width: 15%;
+    float: left;
+}
+
+footer > #contact {
+    width: 25%;
+}
+
+footer > #products {
+    width: 30%;
+
+    & li {
+        width: 50%;
+        float: left;
+    }
+}
+
+footer img {
+    height: auto;
+    width: 125px;
+}
+
+/* General Styling */
+footer h5 {
+    padding-left: 40px;
+}
+
+footer li {
+    padding-bottom: 20px;
+}
+
+footer p {
+    font-size: 15px;
+    padding: 0 10px 0 40px;
+}
