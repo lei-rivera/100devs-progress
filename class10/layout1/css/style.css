@@ -152,6 +152,40 @@ main span {
 
 #two {
     background-color: #f3f7f8;
+    height: 900px;
+    text-align: center;
+    padding: 100px;
+}
+
+#two > section {
+    width: 50%;
+    margin: 0 auto 30px;
+    height: 35px;
+}
+
+#two a {
+    font-size: 20px;
+    display: block;
+    width: 20%;
+    float: left;
+    padding-bottom: 10px;
+    border-bottom: 2px #dbdedf solid;
+}
+
+a#breakfast {
+    color: #ff8800;
+    border-bottom: 2px #ff8800 solid;
+}
+
+#two > section + section {
+    clear: both;
+    width: 100%;
+
+    & img {
+        height: 240px;
+        width: 20%;
+        margin: 0 15px 20px;
+    }
 }
 
 /******************************************
