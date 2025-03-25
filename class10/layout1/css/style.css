@@ -189,8 +189,52 @@ a#breakfast {
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* SECTION THREE
 /*******************************************/
+
+#three {
+    height: 1200px;
+    padding: 100px;
+    text-align: center;
+
+    span, a {
+        display: block;
+        color: black;
+    }
+
+    section {
+        width: 50%;
+        float: left;
+        margin-bottom: 50px;
+    }
+
+    section > span {
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    section > span + span {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .orange {
+    color: #ff8800;
+    }
+
+    a + span.orange {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
+
+    section + img {
+        width: 100%;
+        height: auto;
+    }
+
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
