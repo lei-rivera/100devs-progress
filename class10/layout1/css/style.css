@@ -196,6 +196,7 @@ a#breakfast {
     height: 1200px;
     padding: 100px;
     text-align: center;
+    background-color: #f9fafa;
 
     span, a {
         display: block;
@@ -235,7 +236,32 @@ a#breakfast {
 
 }
 
-
 /******************************************
-/* ADDITIONAL STYLES
+/* SECTION FOUR 
 /*******************************************/
+
+#four {
+    text-align: center;
+    padding: 100px;
+    height: 700px;
+    
+    img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    p {
+        width: 70%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    nav {
+        display: none;
+    }
+
+    main > * {
+        margin: auto;
+    }
+}
