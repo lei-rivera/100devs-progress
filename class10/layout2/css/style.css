@@ -21,20 +21,27 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
-
+a {
+    text-decoration: none;
+    color: black;
 }
 
+ul {
+    list-style: none;
+}
 
 /******************************************
-/* LAYOUT
+/* NAVIGATION
 /*******************************************/
-header {
 
+nav li {
+    width: 10%;
+    float: left;
+    text-align: center;
 }
 
-footer {
-
+.ends {
+    width: 20%;
 }
 
 /******************************************
