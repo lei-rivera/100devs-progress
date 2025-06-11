@@ -54,6 +54,10 @@ nav li {
 
 main {
     background-color: #9e9393;
+    background-image: url(../images/lookbook/purbol.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
     color: white;
     height: 600px;
     padding: 150px 0 0 100px;
@@ -129,6 +133,7 @@ main {
     
     section {
         width: 80%;
+        height: 100%;
         margin: 0 auto;
     }
 
@@ -157,6 +162,12 @@ main {
         padding-top: 15px;
         margin-top: 20px;
     }
+
+    @media (min-width: 1750px) {
+        img {
+            height: 450px;
+        }
+    }
     
 }
 
@@ -166,7 +177,7 @@ main {
 
 #three {
     width: 80%;
-    margin: 80px auto;
+    margin: 100px auto;
     height: 600px;
     section {
         width: 33%;
@@ -181,9 +192,28 @@ main {
 }
 
 /******************************************
-/* ADDITIONAL STYLES
+/* SECTION FOUR
 /*******************************************/
 
+#four {
+    width: 80%;
+    margin: 100px auto;
+
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
 /******************************************
-/* ADDITIONAL STYLES
+/* SECTION FIVE
 /*******************************************/
+
+#five {
+    margin: 20px 150px;
+    img {
+        width: 30%;
+        float: left;
+        margin: 10px;
+    }
+}
