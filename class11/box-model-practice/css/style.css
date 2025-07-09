@@ -25,7 +25,7 @@ section {
 
 /* Please make the spans have thin Dodger Blue borders, padding on the bottom and right, and light red background */
 span {
-    border: 2px solid darkblue;
+    border: 2px solid dodgerblue;
     padding: 0 20px 20px 0;
     background-color: lightcoral;
 }
